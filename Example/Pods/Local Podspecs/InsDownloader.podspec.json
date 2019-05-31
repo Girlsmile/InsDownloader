@@ -1,0 +1,39 @@
+{
+  "name": "InsDownloader",
+  "version": "0.1.0",
+  "summary": "Fast handling of insLink",
+  "homepage": "https://github.com/Girlsmile/InsDownloader",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "Girlsmile": "gzp@softin-tech.com"
+  },
+  "source": {
+    "git": "https://github.com/Girlsmile/InsDownloader.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "9.0"
+  },
+  "source_files": "InsDownloader/Classes/**/*.{swift,h,m}",
+  "xcconfig": {
+    "HEADER_SEARCH_PATHS": "$(SDKROOT)/usr/include/libxml2"
+  },
+  "swift_version": "4.2",
+  "dependencies": {
+    "Common": [
+      "~> 4.0.32"
+    ],
+    "FEAssetKit": [
+
+    ],
+    "Kanna": [
+
+    ],
+    "SnapKit": [
+      "~> 4.2.0"
+    ]
+  }
+}

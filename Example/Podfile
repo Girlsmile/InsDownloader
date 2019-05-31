@@ -1,0 +1,12 @@
+use_frameworks!
+source 'http://git.flowever.net/component/Specs.git'
+source 'https://github.com/CocoaPods/Specs.git'
+
+target 'InsDownloader_Example' do
+  pod 'InsDownloader', :path => '../'
+
+  target 'InsDownloader_Tests' do
+    inherit! :search_paths
+    
+  end
+end

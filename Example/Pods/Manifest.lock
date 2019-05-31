@@ -1,0 +1,53 @@
+PODS:
+  - Alamofire (4.8.1)
+  - Common (4.0.34):
+    - Alamofire (~> 4.7)
+    - Reachability (~> 3.2)
+    - SwiftyJSON-flow (= 4.1.0)
+  - FEAssetKit (0.3.6):
+    - FileKit (~> 4.0.1)
+  - FileKit (4.0.1):
+    - Common (~> 4.0.2)
+  - InsDownloader (0.1.0):
+    - Common (~> 4.0.32)
+    - FEAssetKit
+    - Kanna
+    - SnapKit (~> 4.2.0)
+  - Kanna (4.0.3)
+  - Reachability (3.2)
+  - SnapKit (4.2.0)
+  - SwiftyJSON-flow (4.1.0)
+
+DEPENDENCIES:
+  - InsDownloader (from `../`)
+
+SPEC REPOS:
+  http://git.flowever.net/component/Specs.git:
+    - Common
+    - FEAssetKit
+    - FileKit
+    - SwiftyJSON-flow
+  https://github.com/cocoapods/specs.git:
+    - Alamofire
+    - Kanna
+    - Reachability
+    - SnapKit
+
+EXTERNAL SOURCES:
+  InsDownloader:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  Alamofire: 16ce2c353fb72865124ddae8a57c5942388f4f11
+  Common: 7f4aa750a6ba76bfc5be905d148808aa993a56a8
+  FEAssetKit: 755d8c0dc94a753291ab2ed52bde4087511ae190
+  FileKit: e5c441dc0f10a5dc2004a392f7df008455497bdb
+  InsDownloader: aceb1ef2ce6536315b27c26e2618dd26099fff0d
+  Kanna: 0ebbdd0e7e3308f0aafbd569e79c8cadc5eb877c
+  Reachability: 33e18b67625424e47b6cde6d202dce689ad7af96
+  SnapKit: fe8a619752f3f27075cc9a90244d75c6c3f27e2a
+  SwiftyJSON-flow: 6d8033763d84a8d9f5b2355ac9ada4a822b4ece5
+
+PODFILE CHECKSUM: b31c672e17fcee89cb90d57b1e4f255ca2f2bf35
+
+COCOAPODS: 1.6.1
